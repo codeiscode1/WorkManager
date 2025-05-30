@@ -2,6 +2,8 @@ from tkinter import *
 from tkinter import messagebox
 from pandas import DataFrame,errors,read_csv
 
+app = Tk()
+
 def todolist (tkinter_app) :
     app_main = Toplevel(tkinter_app)
     app_main.title("Todo List")
@@ -102,4 +104,4 @@ def todolist (tkinter_app) :
 
     app_main.mainloop()
 if __name__ == "__main__" :
-    todolist()
+    todolist(app)
