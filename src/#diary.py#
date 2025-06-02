@@ -20,4 +20,5 @@ def diary(tkinter_app):
     diary_date_entry_text.grid(row=1,column=0)
     diary_date_entry = DateEntry(app_diary)
     diary_date_entry.grid(row=1,column=0)
+    diary_entries
     
