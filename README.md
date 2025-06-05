@@ -14,6 +14,5 @@ Python v3+
 Tkinter
 Tkcalendar,
 Datetime ( Installed in Python by default.)
-Pandas
-######
+Pandas.
 Any reccomendations to decrease dependencies is welcomed.(Create an issue.)
