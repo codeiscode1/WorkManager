@@ -123,7 +123,7 @@ def contact_list(tkinter_app):
         b.grid(row=len(contacts) + 1, column=0, columnspan=2)
 
     refresh()
-    main.mainloop()
+    tkinter_app.mainloop()
 
-if __name__ = "__main__" :
+if __name__ == "__main__" :
     contact_list(app)

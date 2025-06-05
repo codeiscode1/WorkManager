@@ -102,6 +102,6 @@ def todolist (tkinter_app) :
     create_button = Button(app_main, text="Create Todo", command=create)
     create_button.grid(row=len(todos) + 1, column=5)
 
-    app_main.mainloop()
+    tkinter_app.mainloop()
 if __name__ == "__main__" :
     todolist(app)
